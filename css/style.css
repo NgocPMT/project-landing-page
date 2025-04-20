@@ -11,7 +11,7 @@ html, body {
 
 header {
   background-color: #1F2937;
-  padding: 1rem 18rem;
+  padding: 1rem 15rem;
 }
 
 nav {
@@ -39,14 +39,15 @@ nav {
 
 #hero {
   background-color: #1F2937;
-  padding: 5rem 18rem;
+  padding: 5rem 15rem 10rem 15rem;
   display: flex;
   justify-content: space-between;
-  gap: 2%
+  gap: 2%;
 }
 
 #hero-content {
-  flex: 49%;
+  flex: 48%;
+  padding-right: 5rem;
 }
 
 #hero-header {
@@ -61,7 +62,7 @@ nav {
 }
 
 #hero-image {
-  flex: 49%;
+  flex: 60%;
   background-color: rgb(90, 99, 108);
   color: #E5E7EB;
   display: flex;
@@ -86,7 +87,7 @@ nav {
 
 #information-header {
   color: #1F2937;
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 900;
   text-align: center;
 }
@@ -118,3 +119,24 @@ nav {
   font-size: 1.125rem;
 }
 
+#quote {
+  margin-top: 5rem;
+  background-color: #E5E7EB;
+  padding: 8rem 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#quote-text {
+  color: #1F2937;
+  font-size: 2.25rem;
+  font-weight: light;
+  font-style: italic;
+}
+
+#quote-author {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
