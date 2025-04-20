@@ -33,13 +33,14 @@ nav {
 .nav-item a{
   font-size: 1.125rem;
   color: #E5E7EB;
+  opacity: 0.8;
   text-decoration: none;
   margin-left: 0.75rem;
 }
 
 #hero {
   background-color: #1F2937;
-  padding: 5rem 15rem 10rem 15rem;
+  padding: 8rem 15rem 10rem 15rem;
   display: flex;
   justify-content: space-between;
   gap: 2%;
@@ -57,8 +58,10 @@ nav {
 }
 
 #hero-subtext {
+  margin-top: 0.3rem;
   font-size: 1.125rem;
-  color: #E5E7EB
+  color: #E5E7EB;
+  opacity: 0.8;
 }
 
 #hero-image {
@@ -82,7 +85,7 @@ nav {
 }
 
 #information {
-  padding: 2rem 24rem;
+  padding: 4rem 24rem 2rem 24rem;
 }
 
 #information-header {
@@ -139,4 +142,43 @@ nav {
   align-self: flex-end;
   font-size: 1.5rem;
   font-weight: 900;
+}
+
+#call-to-action {
+  background-color: #3882F6;
+  margin: 8rem 16rem;
+  padding: 3rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+#cta-header {
+  color: #F9FAF8;
+  font-size: 1.5rem;
+}
+
+#cta-subtext {
+  margin-top: 0.2rem;
+  color: #E5E7EB;
+  font-size: 1.125rem;
+}
+
+#cta-button {
+  background-color: inherit;
+  color: #F9FAF8;
+  font-size: 1.125rem;
+  font-weight: 500;
+  border: 3px solid #F9FAF8;
+  padding: 0.4rem 2rem;
+  border-radius: 0.5rem;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 1.125rem;
+  padding: 3rem 0;
+  text-align: center;
 }
